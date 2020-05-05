@@ -1,0 +1,230 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background: #FAD61D;
+}
+.hide {
+    visibility: hidden;
+}
+.canvas {
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    top: 200px;
+}
+.top-face ul {
+    text-align: center;
+    width: 100%;
+}
+.eye-background li {
+    display: inline-block;
+    margin: 50px 200px;
+}
+.first-eye-layer li {
+    display: inline-block;
+    margin: 100px 200px 100px 200px;
+}
+.left-eye, .right-eye {
+    width: 150px;
+    height: 150px;
+    background: black;  
+    border-radius: 50%;
+    list-style: none;
+}
+.left-eye {
+    position: relative;
+    top: -50px;
+    height: 50px;
+    background: #FAD61D;
+    border-top: 5px solid black;
+    border-radius: 50%;
+}   
+.left-iris, .right-iris {
+    width: 75px;
+    height: 75px;
+    background: white;  
+    border-radius: 50%;
+    list-style: none;
+    position: relative;
+    top: -285px;
+    left: 15px;
+}
+/*.left-eye-cover {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    left: 245px;
+    top: px;
+
+}*/
+.nose {
+    width: 50px;
+    height: 35px;
+    background: black;  
+    border-radius: 40%;
+    position: relative;
+    top: -300px;
+}
+.mouth {
+    width: 400px;
+    height: 35px;
+    background: #FAD61D; 
+    border-radius: 40%;
+    position: relative;
+    top: -150px;
+    border-bottom: 5px solid black;
+}
+.cheeks li {
+    display: inline-block;
+    position: relative;
+    background: rgb(224, 135, 63);
+    width: 125px;
+    height: 125px;
+    list-style: none;
+    border-radius: 50%;
+}
+.left-cheek {
+    position: relative;
+    left: -300px;
+    top: -350px;
+}
+.right-cheek {
+    position: relative;
+    right: -300px;
+    top: -350px;
+}
+
+/*
+body {
+    background: lightgray;
+    height: 1000px;
+    width: 1200px;
+}
+.canvas-square {
+    width: 700px;
+    height: 1000px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 147px;
+    background: linear-gradient(145deg, #5bc6ff, #4da7db);
+    border-radius: 30%;
+    background: #2897fb;
+    box-shadow: inset 14px 14px 14px #103c64, 
+            inset -12px -12px 14px #103c64;
+    margin: 0 auto;
+}
+.wrapper {
+}
+.sun {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: #f5d31d;
+    border: 3px solid black;
+    z-index: 2;
+    box-shadow:   -2px 2px 5px #103c64, 
+    2px -2px 55px lightgray;
+}
+.ray-one, .ray-two, .ray-three, .ray-four, .ray-five {
+    position: absolute;
+    width: 10px;
+    height: 70%;
+    background-color: #f5d31d;
+    position: absolute;
+    transform: rotate(0deg);
+    box-shadow:   -2px 2px 5px #103c64, 
+    2px -2px 5px lightgray;
+    border: 1px solid black;
+    left: 70px;
+    top: 160px;
+}
+.ray-two {
+    left: 210px;
+    top: 20px;
+    transform: rotate(90deg);
+    height: 70%;
+}
+.ray-three {
+    height: 70%;
+    left: 70px;
+    top: -120px;
+    transform: rotate(0deg);
+}
+.ray-four {
+    top: 40px;
+    left: -60px;
+    transform: rotate(90deg);
+    height: 40%;
+}
+.ray-five {
+    top: 140px;
+    left: -60px;
+    transform: rotate(45deg);
+    height: 40%;
+}
+/*
+.ray-two {
+    transform: rotate(110deg);
+    left: 195px;
+    top: 72px;
+}
+.ray-three {
+    transform: rotate(90deg);
+    left: 205px;
+    top: 20px;
+}
+.ray-four {
+    left: 187px;
+    top: -40px;
+    transform: rotate(65deg);
+}
+.ray-five {
+    left: 150px;
+    top: -85px;
+    transform: rotate(40deg);
+}
+.ray-six {
+    left: 47px;
+    top: -108px;
+    transform: rotate(-190deg);
+}
+.ray-seven {
+    left: 100px;
+    top: -107px;
+    transform: rotate(15deg);
+}
+.ray-eight {
+    height: 70px;
+    top: -60px;
+    transform: rotate(145deg);
+}
+*//*
+.arm-rest {
+    width: 400px;
+    height: 100px;
+    background: rgb(168, 107, 50);
+    box-shadow:   -10px 10px 30px #103c64, 
+    10px -10px 30px lightgray;
+     position: relative;
+     top: 450px;
+     left: 750px;
+     box-shadow: 4px 4px 4px #103c64, 
+            -4px 4px 4px #103c64;
+}
+.triangle {
+    width: 100px;
+    height: 200px;
+    background: lightgray; 
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}*/
